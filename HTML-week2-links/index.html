@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Week 2 - Using Links in HTML5 </title>
+</head>
+<body>
+    <main>
+        <h1>Links</h1>
+        <p>Knowing how to link your code to other documents is important.</p>
+
+        <div id = "absolute">
+            <h2>Absolute References</h2>
+            <p>Absolute references (sometimes called external links) connect to pages in other domains.  In the href attribute of the tage the full URL of the page, image, or other resources you would like to link to is specified.  Once example might be your quest to list some of the greatest bakeries of all time.  Since you want to link to the bakeries themselves and not to files that you wrote, you would use an absolute reference. </p>
+
+            <ul>
+                <li><a href = "https://washtenawdairy.com/">Washtenaw Dairy</a></li>
+                 <li><a href = "http://www.thedexterbakery.com/">The Dexter Bakery</a></li>
+            </ul>
+
+            <p>The code I used to create the links is: </p>
+            
+            <pre>
+        &lt;a href = "https://washtenawdairy.com/"&gt;Washtenaw Dairy&lt;/a&gt;
+        &lt;a href = "http://www.thedexterbakery.com/"&gt;The Dexter Bakery&lt;/a&gt;       
+            </pre>
+           <p>If any of these businesses change their URL my links will not work any longer.</p> 
+        </div>
+        <div id = "relative">
+            <h2>Relative References</h2>
+            Relative references connect to pages within your domain.  The the href attribute of the tag only the folder (if any) and filename is specified.  Some examples of when you might use relative refereces would be in your navigation bar or links to your own images.
+            <ul>
+                <li><a href = "fontawesome.html">Code from this week's lecture on FontAwesome lecture </a> -- 
+                This links to a file in the the same folder.</li>
+                
+                <li><a href = "images/WD_donut.jpg"> A picture from a subfolder.</a> -- This links to an image in the subfoder called images.</li>
+
+                <li><a href = "../week1/firstPage.html">Code from previous week's lecture.></a> -- This links to a "sibling" folder -- the folder that has code from week One.  Notice there is are two periods before the folder name to let the computer know to look in a different folder.</li>
+            </ul>
+
+
+            <p>The code I used to create the links is: </p>
+            
+            <pre>
+        &lt;a href = "fontawesome.html"&gt;Code from this week's lecture on FontAwesome lecture &lt;/a&gt;
+        &lt;a href = "images/WD_donut.jpg"&gt; A picture from a subfolder.&lt;/a&gt;
+        &lt;a href = "../week1/firstPage.html"&gt;Code from previous week's lecture.&gt;&lt;/a&gt;
+</pre>
+        </div>
+        <div id = "images">
+            <h2>Images as Links</h2>
+            <p>More an dmore people are moving away from textual prompts to ones that are graphics based.  This is to make the page look "nicer".  I can redo the  externaal link to Washtenaw Dairy using a picture instead of words. </p>
+
+            <li><a href = "https://washtenawdairy.com/"><img src = "images/WD_donut.jpg" alt = "Washtenaw Dairy"></a></li>
+
+            <p>Something to keep in mind though is that not everyoen can see the image, or they may not realize that the image is a link.  As you become more confident in your coding you will want to make sure to have people test your pages so that you can make it an optimal experience for as many people as possible.</p>
+        </div>
+
+        <div id = "embedded">
+            <h2>Embedded Links</h2>
+
+            <p>Every tag can have an id attribute.  The id attribute gives a name to a very specific setion of the page.  You can use that id to link directly to a part of your page instead of just to the page in general.  This is a great way to allow people to quickly jump to a specific section on your page.</p>
+            <ol>
+                <li><a href = "#absolute">Absolute References</a></li>
+                <li><a href = "#relative">Relative References</a></li>
+                <li><a href = "#images">Images as Links</a></li>
+                <li><a href = "#embedded">Embedded References</a></li>
+            </ol>
+            <p>When you click on any of the links above, teh browser will bring that section into focus.  It may be the case the bottom two links don't appear to do anything, but that may be because the content is already visible on your screen.</p>
+            <p>Here is the cde I used to create those four links</p>
+            
+            <pre>
+                &lt;a href = "#absolute"&gt;Absolute References&lt;/a&gt;
+                &lt;a href = "#relative"&gt;Relative References&lt;/a&gt;
+                &lt;a href = "#images"&gt;Images as Links&lt;/a&gt;
+                &lt;a href = "#embedded"&gt;Embedded References&lt;/a&gt;
+            </pre>
+        
+
+            <p>**Don't forget that you can chose "View Source" from your browser to take a closer look at the code I created to create these links.</p>
+        </div>
+
+    </main>
+</body>
+</html>
+

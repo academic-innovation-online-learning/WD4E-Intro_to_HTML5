@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Week 2 - Common Speciality Tags</title>
+</head>
+<body>
+    <h1>Some specialized tags</h1>
+    <main>
+        <h2>button</h2>
+        <p>Here is an example of the button tag.  It is a little bit misleading since it is a button that doesn't do anything.  You would want to add some interactivity, perhaps with JavaScript. </p>
+
+        <button>open</button><br>
+        <button>close</button>
+
+        <hr>
+        <h2>meter</h2>
+        <p>he &lt;meter&gt; element is cool and can take a lot of attributes.  But again it is better if you have some code that can make the attribute values dynamic instead of "hardcoding" them.  When you think of a meter, think of a final score for a test.</p>
+
+        <meter  min="0" max="100" value="50%">50%</meter><br>
+        <meter  min="0" max="1" value=".25%">25%</meter><br>
+        <meter  min="5" max="10" value="8">60%</meter><br>
+
+        <hr>
+        <h2>progress</h2>
+        <p>The &lt;progress&gt; element has a very similar layout to the meter tag.  The difference is that there is an assumption that there will be a progression toward 100%.  This tag is often used when filling out a form that has many pages of questions.</p>
+
+        <progress value = "70" max="100">70%</progress><br>
+
+        <hr>
+
+        <h2>iframe</h2>
+        <p>The &lt;iframe&gt; element is used to next content.  It is not supported equally well by all browsers.  You will want to explore options such as width and height. </p>
+        <iframe src="https://www.intro-webdesign.com/" title = "Web Design for Everybody"></iframe>
+
+
+        <iframe src = "https://www.intro-webdesign.com/" width = "80%" title = "Web Design for Everybody"></iframe>
+        <hr>
+
+        <h2>Bi-directional orientation - bdo</h2>
+        <p>The &lt;bdo&gt; element is for bi-directional orientation of your text.  This element can be used to change the direction of your text.</p>
+        <p><bdo = "rtl">This text will be right to left</bdo></p>
+
+    </main>
+    
+</body>
+</html>

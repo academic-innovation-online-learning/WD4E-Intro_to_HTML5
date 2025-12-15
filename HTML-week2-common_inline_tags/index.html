@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Week 2 - Common Inline Tags</title>
+</head>
+<body>
+    <h1>Some common inline tags</h1>
+    <main>
+        <h2>Citing a source cite</h2>
+        <p>The &lt;cite&gt; element makes it much easier for people and bots to search the code for specific information.</p>
+
+        A great reference for these and other elements is <cite>https://developer.mozilla.org/en-US/</cite>
+        <hr>
+        <h2>Defining your abbreviations - abbr</h2>
+        <p>The &lt;abbr&gt; element will display an abbreviation on the browser.  Usually it will use the title attribute which will generate an underline and also provide a full definition of the accronymn when someone hovers over the word.  If you can, put your mouse over the WD4E below.</p> 
+        <abbr title="Sun">Sunday</abbr>, <abbr title="Mon">Monday</abbr>, <abbr title="Tues">Tuesday</abbr>, etc.<br>
+        <p>Screen readers will read out the text, but don't forget that not everyone uses a mouse to navigate a page!!   So it is always a good idea to define your acronyms somewhere in the text as well.</p>
+        
+        <hr>
+
+        <h2>Specifying the use of time - time</h2>
+        The &lt;time&gt; element is again a completely semantic tag - it does not change any of the styling but it can allow systems to know to associate it with a calendar.<br>
+
+        <p>"The concert took place on <time datetime="2001-05-15T19:00">May 15</time>."</p> may look like regular text, but look at the code used to generate it:<br>
+        
+        <p>The concert took place on &lt;time datetime=&quot;2001-05-15T19:00&quot;&gt;May 15&lt;/time&gt;</p>
+
+        <hr>
+        <h2>Identifying code fragments - code</h2>
+        <p>The &lt;code&gt; element is often displayed in a different font, but also some (just a little)  semantic meaning.  You can use this tag or later you can use <abbr title = "Cascading Style Sheets">CSS</abbr> to style anything to look more like computer code.</p>
+
+    
+
+        <hr>
+
+        <hr>
+        <h2>Using subscripts and superscripts - sub and sup</h2>
+        <p>The &lt;sub&gt; and  &lt;sup&gt; element are used to create the super and subscripts, e.g, H<sub>2</sub>0 or 1<sup>st</sup>. <br>  In the past people would often use images to display mathematical formulas, but those images weren't always accessible.<br></p>
+
+        <hr>
+
+    </main>
+    
+</body>
+</html>
