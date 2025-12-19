@@ -1,5 +1,5 @@
 # Welcome to Introduction to HTML5
-This is where we will keep the code for the different CSS projects.  
+This is where we will keep the code for the different HTML projects.  
 
 If you see this page and you are looking for starter code, you will want the URL with <em>".com"</em>.<br>
 https://github.com/academic-innovation-online-learning/WD4E-Intro_to_HTML5.
